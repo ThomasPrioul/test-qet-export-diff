@@ -420,126 +420,323 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
     <diagram colsize="60" indexrev="" displaycols="true" plant="BMES" locmach="" title="Batterie-MES" rows="27" rowsize="80" height="2180" filename="" order="1" date="null" author="Florent CHABRIER" version="0.100.0" freezeNewConductor="false" cols="63" displayAt="bottom" auto_page_num="Créer un Folio Numérotation Auto" folio="%id/%total" displayrows="true" freezeNewElement="false">
         <defaultconductor num="_" conductor_color="" type="multi" displaytext="1" vertirotatetext="270" onetextperfolio="0" color2="#000000" horizrotatetext="0" bicolor="false" condsize="1" numsize="7" tension_protocol="" bus="" dash-size="2" conductor_section="" vertical-alignment="AlignRight" function="" horizontal-alignment="AlignBottom" text_color="#000000" cable="" formula=""/>
         <elements>
-            <element type="embed://import/10_electric/10_allpole/110_network_supplies/ground1.elmt" x="1090" y="720" z="10" freezeLabel="false" prefix="" uuid="{21507e69-019e-4f00-8ba5-24bd873051eb}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="1770" y="350" z="10" freezeLabel="false" prefix="S" uuid="{0432fc7a-9461-4f44-ab9a-e5789267b0db}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="3" id="0" orientation="0"/>
+                    <terminal x="0" y="-16" id="0" orientation="0"/>
+                    <terminal x="0" y="16" id="1" orientation="2"/>
                 </terminals>
                 <inputs/>
-                <elementInformations>
-                    <elementInformation name="label" show="1">B-</elementInformation>
-                </elementInformations>
-                <properties>
-                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
-                </properties>
+                <links_uuids>
+                    <link_uuid uuid="{a7d5490d-b110-45e1-b44a-1a52014cb920}"/>
+                </links_uuids>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="8" y="2" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{f158f611-ac9e-497c-94c3-382a0ec7f5e1}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>B-</text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6.75" y="-10.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{f4c914a1-4086-44d0-848b-a28ee5daebca}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Cx-BL</text>
                         <info_name>label</info_name>
-                        <color>#0000ff</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/groundbleu.elmt" x="40" y="480" z="10" freezeLabel="false" prefix="" uuid="{ef2adfa6-3c13-49c1-ab03-b440dd2a839b}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="1340" y="510" z="10" freezeLabel="false" prefix="S" uuid="{248dbef4-5e4a-4746-ab6e-cce1e6a61885}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-7" id="1" orientation="0"/>
+                    <terminal x="0" y="-16" id="2" orientation="0"/>
+                    <terminal x="0" y="16" id="3" orientation="2"/>
                 </terminals>
                 <inputs/>
-                <properties>
-                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
-                </properties>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-22.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{34757085-d32b-4470-a41f-db57a8312a18}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
                         <text></text>
                         <info_name>label</info_name>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/380_signaling_operating/20_push_buttons/poussoir.elmt" x="180" y="300" z="10" freezeLabel="false" prefix="S" uuid="{6483d8e1-ce46-4232-980b-f4e0e6d70d9b}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-17" id="2" orientation="0"/>
-                    <terminal x="0" y="17" id="3" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <elementInformations>
-                    <elementInformation name="comment" show="1">Bouton poussoir préparation</elementInformation>
-                    <elementInformation name="label" show="1">BP-Q-BA_VE1</elementInformation>
-                </elementInformations>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-13.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{782b0e09-c243-4d4f-9454-ab80b8b9a504}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>BP-Q-BA_VE1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="1" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{bbd4e62d-2ef6-4a12-bfeb-49ba34b8c494}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Bouton poussoir préparation</text>
-                        <info_name>comment</info_name>
-                        <color>#5500ff</color>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine_tempo_travail.elmt" x="490" y="610" z="10" freezeLabel="false" prefix="K" uuid="{0c0e3b2f-eaae-4a14-b050-19c5fa84054e}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="1630" y="430" z="10" freezeLabel="false" prefix="S" uuid="{b80c40f4-692e-44bb-8ab1-e9022da4e92a}" orientation="0">
                 <terminals>
                     <terminal x="0" y="-16" id="4" orientation="0"/>
                     <terminal x="0" y="16" id="5" orientation="2"/>
                 </terminals>
                 <inputs/>
-                <elementInformations>
-                    <elementInformation name="comment" show="1">Relais 1 annulation prépa. tempo.</elementInformation>
-                    <elementInformation name="function" show="1">5 min FM</elementInformation>
-                    <elementInformation name="label" show="1">Q1(T-A)Q-BA_V1</elementInformation>
-                </elementInformations>
+                <links_uuids>
+                    <link_uuid uuid="{5c1aee3e-b447-4b3d-a738-a1b53f7efba2}"/>
+                </links_uuids>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{a014bc94-a0c4-4d5a-82f4-0a94f7e3d38d}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A2</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{8784b866-41b4-4b08-9b46-dc096e9b9860}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A1</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{1c0be255-deb9-4529-ac2c-77000b171f6e}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Q1(T-A)Q-BA_V1</text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="3.75" y="-7.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{8dbf918c-75e2-452e-bf67-634f5ff88348}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Z-BL_V1</text>
                         <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-22" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{83184ba1-401f-429f-b423-81e0fb1e1612}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Relais 1 annulation prépa. tempo.</text>
-                        <info_name>comment</info_name>
-                        <color>#5500ff</color>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-34" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{614606b1-14a8-4533-ac45-568bb23b1613}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>5 min FM</text>
-                        <info_name>function</info_name>
-                        <color>#ffaa00</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/380_signaling_operating/20_push_buttons/poussoir.elmt" x="1020" y="300" z="10" freezeLabel="false" prefix="S" uuid="{8095db4c-ea68-49c0-a71e-896622b678e1}" orientation="0">
+            <element type="embed://import/connector.elmt" x="2020" y="400" z="10" freezeLabel="false" prefix="" uuid="{059019b8-b835-4571-bf5e-d06ae1213cea}" orientation="1">
                 <terminals>
-                    <terminal x="0" y="-17" id="6" orientation="0"/>
-                    <terminal x="0" y="17" id="7" orientation="2"/>
+                    <terminal x="0" y="-2" id="6" orientation="0"/>
+                    <terminal x="0" y="2" id="7" orientation="2"/>
                 </terminals>
                 <inputs/>
-                <elementInformations>
-                    <elementInformation name="comment" show="1">Commutateur d'annulation préparation (plombé)</elementInformation>
-                    <elementInformation name="label" show="1">Z(A)Q-BA_VE1</elementInformation>
-                </elementInformations>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{782b0e09-c243-4d4f-9454-ab80b8b9a504}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Z(A)Q-BA_VE1</text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
                         <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-14" y="1" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="150" uuid="{71f4616d-40a0-4bc7-b555-3d552f41e2b5}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignVCenter">
-                        <text>Commutateur d'annulation préparation (plombé)</text>
-                        <info_name>comment</info_name>
-                        <color>#5500ff</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="140" z="10" freezeLabel="false" prefix="" uuid="{10d0c35c-899d-4c5d-bbfc-8f36a8b67da6}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/contact_simple_bleu.elmt" x="1550" y="230" z="10" freezeLabel="false" prefix="S" uuid="{d7537d43-94f8-4d08-8b3e-d57143ac705e}" orientation="1">
                 <terminals>
-                    <terminal x="-9" y="0" id="8" orientation="3"/>
+                    <terminal x="0" y="-16" id="8" orientation="0"/>
+                    <terminal x="0" y="16" id="9" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{9e52bc60-d669-4766-877c-a4402f587534}"/>
+                </links_uuids>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-23.25" y="21.5" rotation="270" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{17a68a7a-6b65-4977-9672-5b2d1758ba37}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>C-BA_V1</text>
+                        <info_name>label</info_name>
+                        <color>#0000ff</color>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="490" y="520" z="10" freezeLabel="false" prefix="S" uuid="{55b1bce1-678c-4551-a8c6-596a1dcd0ca3}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="10" orientation="0"/>
+                    <terminal x="0" y="16" id="11" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/connector.elmt" x="2020" y="520" z="10" freezeLabel="false" prefix="" uuid="{5a17561f-21ed-4581-acc1-92f8f6c3ed86}" orientation="1">
+                <terminals>
+                    <terminal x="0" y="-2" id="12" orientation="0"/>
+                    <terminal x="0" y="2" id="13" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="350" y="300" z="10" freezeLabel="false" prefix="S" uuid="{1ede564d-fc25-45c6-815a-1cef3a5b85e3}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="14" orientation="0"/>
+                    <terminal x="0" y="16" id="15" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{98565f04-5a7c-462f-9e1d-471f1ca8d9ba}"/>
+                </links_uuids>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{df45ad8f-da76-4602-9449-2b6343f00acb}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Q-BA_V1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/connector.elmt" x="2020" y="440" z="10" freezeLabel="false" prefix="" uuid="{25eb725e-b9d6-4db8-ac88-80d3ba4503a0}" orientation="1">
+                <terminals>
+                    <terminal x="0" y="-2" id="16" orientation="0"/>
+                    <terminal x="0" y="2" id="17" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="1410" y="510" z="10" freezeLabel="false" prefix="S" uuid="{8b593e5e-5422-4843-889d-2dffffc8a87c}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="18" orientation="0"/>
+                    <terminal x="0" y="16" id="19" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="490" y="440" z="10" freezeLabel="false" prefix="S" uuid="{b416dd1b-1c77-4f6e-a7ac-116183b9ca0b}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="20" orientation="0"/>
+                    <terminal x="0" y="16" id="21" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="870" y="300" z="10" freezeLabel="false" prefix="S" uuid="{77120d1e-58f8-4241-9e9b-69aaf5bfd87c}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="22" orientation="0"/>
+                    <terminal x="0" y="16" id="23" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f6ea611d-9e9a-4399-b225-15d39a65b4a4}"/>
+                </links_uuids>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{779f096c-3d19-4185-9719-237de9cf1ce8}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>C2-BA_V1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/395_electronics_semiconductors/11_diodes/diode.elmt" x="350" y="370" z="10" freezeLabel="false" prefix="V" uuid="{230f79d1-3eae-4716-9f41-a6918ff49cb5}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="24" orientation="0"/>
+                    <terminal x="0" y="16" id="25" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="8" y="-6.83" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{0a66df72-2bdd-4df3-b9fb-49c29669f676}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/connector.elmt" x="2020" y="630" z="10" freezeLabel="false" prefix="" uuid="{4eedcf35-87af-42ce-95bb-03651fd2296e}" orientation="1">
+                <terminals>
+                    <terminal x="0" y="-2" id="26" orientation="0"/>
+                    <terminal x="0" y="2" id="27" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts/>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/connector.elmt" x="2020" y="480" z="10" freezeLabel="false" prefix="" uuid="{c59049e9-2141-464a-a0eb-7a2107b06436}" orientation="1">
+                <terminals>
+                    <terminal x="0" y="-2" id="28" orientation="0"/>
+                    <terminal x="0" y="2" id="29" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="490" y="380" z="10" freezeLabel="false" prefix="S" uuid="{d24f1dfc-f56b-4a30-9e6a-16fb91214958}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="30" orientation="0"/>
+                    <terminal x="0" y="16" id="31" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="1020" y="520" z="10" freezeLabel="false" prefix="S" uuid="{87231699-717b-4bf7-a512-77a8bca40d92}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="32" orientation="0"/>
+                    <terminal x="0" y="16" id="33" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{5c1aee3e-b447-4b3d-a738-a1b53f7efba2}"/>
+                </links_uuids>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Z-BL_V1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="2410" y="310" z="10" freezeLabel="false" prefix="S" uuid="{cc770112-4c3d-4322-a09c-121a9e7597cb}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="34" orientation="0"/>
+                    <terminal x="0" y="16" id="35" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{a7d5490d-b110-45e1-b44a-1a52014cb920}"/>
+                </links_uuids>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Cx-BL</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="350" y="480" z="10" freezeLabel="false" prefix="S" uuid="{292db575-34de-40fb-9fe5-db4f0f09761b}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="36" orientation="0"/>
+                    <terminal x="0" y="16" id="37" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{6bf64c26-61ec-4166-a2e9-dacc6d2a2e88}"/>
+                </links_uuids>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Q(A)Q-BA_V1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/connector.elmt" x="60" y="230" z="10" freezeLabel="false" prefix="" uuid="{d719e37d-2677-42c7-a95d-ba5b671d0f7a}" orientation="1">
+                <terminals>
+                    <terminal x="0" y="-2" id="38" orientation="0"/>
+                    <terminal x="0" y="2" id="39" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{677f72ef-c24e-408a-9b79-843a3411808e}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="1240" y="510" z="10" freezeLabel="false" prefix="S" uuid="{5ddd93aa-7e2f-45ca-904f-6161130710e1}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="40" orientation="0"/>
+                    <terminal x="0" y="16" id="41" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="3.75" y="-7.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{8dbf918c-75e2-452e-bf67-634f5ff88348}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="180" z="10" freezeLabel="false" prefix="" uuid="{c4c23a65-17dd-4aa2-b559-7b84bd82bc5c}" orientation="0">
+                <terminals>
+                    <terminal x="-9" y="0" id="42" orientation="3"/>
                 </terminals>
                 <inputs/>
                 <dynamic_texts>
@@ -550,15 +747,80 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="1800" y="610" z="10" freezeLabel="false" prefix="K" uuid="{bfcf9cda-5e91-45c8-85d8-8ac197ea85c7}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="350" y="610" z="10" freezeLabel="false" prefix="K" uuid="{98565f04-5a7c-462f-9e1d-471f1ca8d9ba}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="9" orientation="0"/>
-                    <terminal x="0" y="16" id="10" orientation="2"/>
+                    <terminal x="0" y="-16" id="43" orientation="0"/>
+                    <terminal x="0" y="16" id="44" orientation="2"/>
                 </terminals>
                 <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{1ede564d-fc25-45c6-815a-1cef3a5b85e3}"/>
+                </links_uuids>
                 <elementInformations>
-                    <elementInformation name="comment" show="1">Relais boîte à levier</elementInformation>
-                    <elementInformation name="label" show="1">Qx-BL</elementInformation>
+                    <elementInformation name="comment" show="1">Relais de préparation</elementInformation>
+                    <elementInformation name="formula" show="1">Q-BA_V1</elementInformation>
+                    <elementInformation name="label" show="1">Q-BA_V1</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{2045e9e9-584c-4bdb-bceb-7a25a82a3973}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A2</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{c35f0aa2-27cc-46df-84d0-303de5e306fa}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{f09ad0d4-a400-4981-be4e-65241b12b3f7}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Q-BA_V1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-22" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{e825cf4b-b6e4-444a-bded-f68afce717f6}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Relais de préparation</text>
+                        <info_name>comment</info_name>
+                        <color>#5500ff</color>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="1900" y="480" z="10" freezeLabel="false" prefix="" uuid="{b87768fd-cc3d-4963-9985-e4b9000d604f}" orientation="0">
+                <terminals>
+                    <terminal x="-9" y="0" id="45" orientation="3"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/terminal_block.elmt" x="2140" y="400" z="10" freezeLabel="false" prefix="" uuid="{792a950b-386a-4f06-b0c1-3deb0e8a5ff1}" orientation="3">
+                <terminals>
+                    <terminal x="0" y="-6" id="46" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <properties>
+                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5" y="-18" rotation="0" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3a9f166c-66eb-429b-8a76-2f6119e73578}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="1020" y="610" z="10" freezeLabel="false" prefix="K" uuid="{6bf64c26-61ec-4166-a2e9-dacc6d2a2e88}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="47" orientation="0"/>
+                    <terminal x="0" y="16" id="48" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{292db575-34de-40fb-9fe5-db4f0f09761b}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Relais annulation préparation</elementInformation>
+                    <elementInformation name="label" show="1">Q(A)Q-BA_V1</elementInformation>
                 </elementInformations>
                 <dynamic_texts>
                     <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{3c538b8d-a000-4534-96a9-c6ea00b51ad8}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
@@ -567,48 +829,22 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                     <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{5255f5c9-7338-4a48-8530-6e7051933d70}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
                         <text>A1</text>
                     </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="18" y="-8.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{da2d5d26-b380-47b9-809e-7e14da6f74db}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Qx-BL</text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{da2d5d26-b380-47b9-809e-7e14da6f74db}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Q(A)Q-BA_V1</text>
                         <info_name>label</info_name>
                     </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="18" y="-21" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{5b530cdd-4fae-4dd0-a678-1e9c7612a840}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Relais boîte à levier</text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-22" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{5b530cdd-4fae-4dd0-a678-1e9c7612a840}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Relais annulation préparation</text>
                         <info_name>comment</info_name>
                         <color>#5500ff</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="160" z="10" freezeLabel="false" prefix="" uuid="{a35616a2-65e5-44ba-a0f3-ec28c5b11a7d}" orientation="0">
-                <terminals>
-                    <terminal x="-9" y="0" id="11" orientation="3"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="1900" y="500" z="10" freezeLabel="false" prefix="" uuid="{29c88cee-91c4-4a2e-ab5d-afa4dc735d12}" orientation="0">
-                <terminals>
-                    <terminal x="-9" y="0" id="12" orientation="3"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
             <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="1630" y="610" z="10" freezeLabel="false" prefix="K" uuid="{a7d5490d-b110-45e1-b44a-1a52014cb920}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="13" orientation="0"/>
-                    <terminal x="0" y="16" id="14" orientation="2"/>
+                    <terminal x="0" y="-16" id="49" orientation="0"/>
+                    <terminal x="0" y="16" id="50" orientation="2"/>
                 </terminals>
                 <inputs/>
                 <links_uuids>
@@ -638,50 +874,9 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="1020" y="610" z="10" freezeLabel="false" prefix="K" uuid="{6bf64c26-61ec-4166-a2e9-dacc6d2a2e88}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="15" orientation="0"/>
-                    <terminal x="0" y="16" id="16" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{292db575-34de-40fb-9fe5-db4f0f09761b}"/>
-                </links_uuids>
-                <elementInformations>
-                    <elementInformation name="comment" show="1">Relais annulation préparation</elementInformation>
-                    <elementInformation name="label" show="1">Q(A)Q-BA_V1</elementInformation>
-                </elementInformations>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{3c538b8d-a000-4534-96a9-c6ea00b51ad8}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A2</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{5255f5c9-7338-4a48-8530-6e7051933d70}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A1</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{da2d5d26-b380-47b9-809e-7e14da6f74db}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Q(A)Q-BA_V1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-22" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{5b530cdd-4fae-4dd0-a678-1e9c7612a840}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Relais annulation préparation</text>
-                        <info_name>comment</info_name>
-                        <color>#5500ff</color>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/connector.elmt" x="2020" y="630" z="10" freezeLabel="false" prefix="" uuid="{4eedcf35-87af-42ce-95bb-03651fd2296e}" orientation="1">
-                <terminals>
-                    <terminal x="0" y="-2" id="17" orientation="0"/>
-                    <terminal x="0" y="2" id="18" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts/>
-                <texts_groups/>
-            </element>
             <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="200" z="10" freezeLabel="false" prefix="" uuid="{b4479b02-3e37-4935-9b68-9c534b5dda45}" orientation="0">
                 <terminals>
-                    <terminal x="-9" y="0" id="19" orientation="3"/>
+                    <terminal x="-9" y="0" id="51" orientation="3"/>
                 </terminals>
                 <inputs/>
                 <dynamic_texts>
@@ -692,10 +887,155 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
+            <element type="embed://import/terminal_block.elmt" x="2140" y="520" z="10" freezeLabel="false" prefix="" uuid="{013171ca-6570-4d32-8b12-94e61cd205c8}" orientation="3">
+                <terminals>
+                    <terminal x="0" y="-6" id="52" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <properties>
+                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5" y="-18" rotation="0" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3a9f166c-66eb-429b-8a76-2f6119e73578}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="2410" y="610" z="10" freezeLabel="false" prefix="K" uuid="{42a2c31b-6627-4f81-8c4f-5254484471ce}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="53" orientation="0"/>
+                    <terminal x="0" y="16" id="54" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Relais test lampes de signalisation</elementInformation>
+                    <elementInformation name="label" show="1">Q(TEST)LS</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{3c538b8d-a000-4534-96a9-c6ea00b51ad8}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A2</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{5255f5c9-7338-4a48-8530-6e7051933d70}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{da2d5d26-b380-47b9-809e-7e14da6f74db}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Q(TEST)LS</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/380_signaling_operating/20_push_buttons/poussoir.elmt" x="2410" y="380" z="10" freezeLabel="false" prefix="S" uuid="{7656d8bd-9743-4177-a234-90d0400d60a9}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-17" id="55" orientation="0"/>
+                    <terminal x="0" y="17" id="56" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="label" show="1">BP(TEST)LS</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{782b0e09-c243-4d4f-9454-ab80b8b9a504}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>BP(TEST)LS</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/bp_physique_baie_set.elmt" x="40" y="310" z="10" freezeLabel="false" prefix="" uuid="{207c94f2-dba1-4f16-ad2f-585218aaac58}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-17" id="57" orientation="0"/>
+                    <terminal x="0" y="17" id="58" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Interrupteur batterie</elementInformation>
+                    <elementInformation name="label" show="1">H-BA_VE1</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{cf25c6f1-a178-422b-91d2-eb45b831e30b}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>H-BA_VE1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="3" y="3" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{57563d7c-f71c-4fb8-8005-5fedd31a62f0}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Interrupteur batterie</text>
+                        <info_name>comment</info_name>
+                        <color>#5500ff</color>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/terminal_block.elmt" x="2140" y="440" z="10" freezeLabel="false" prefix="" uuid="{203a5969-7352-45d8-bf39-78c126d36fbb}" orientation="3">
+                <terminals>
+                    <terminal x="0" y="-6" id="59" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <properties>
+                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5" y="-18" rotation="0" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3a9f166c-66eb-429b-8a76-2f6119e73578}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/source_tension_physique_baie_set.elmt" x="40" y="390" z="10" freezeLabel="false" prefix="" uuid="{4d42d23e-5978-4f93-b7c0-2101fc92db4e}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-16" id="60" orientation="0"/>
+                    <terminal x="0" y="16" id="61" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Alimentation 72V</elementInformation>
+                    <elementInformation name="label" show="1">BAT</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="12.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{a3cce361-4c38-426a-bc03-95107698d0fc}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>BAT</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="11" y="1" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{80992264-ee4b-4ea2-8c1d-f202d5fabe2a}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Alimentation 72V</text>
+                        <info_name>comment</info_name>
+                        <color>#5500ff</color>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="1900" y="460" z="10" freezeLabel="false" prefix="" uuid="{f0e8eec9-91ac-437e-b9cd-9c411ded11de}" orientation="0">
+                <terminals>
+                    <terminal x="-9" y="0" id="62" orientation="3"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="120" z="10" freezeLabel="false" prefix="" uuid="{25fb9c45-310d-4e32-9f1a-f2dc2b355470}" orientation="0">
+                <terminals>
+                    <terminal x="-9" y="0" id="63" orientation="3"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
             <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="1340" y="610" z="10" freezeLabel="false" prefix="K" uuid="{5c1aee3e-b447-4b3d-a738-a1b53f7efba2}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="20" orientation="0"/>
-                    <terminal x="0" y="16" id="21" orientation="2"/>
+                    <terminal x="0" y="-16" id="64" orientation="0"/>
+                    <terminal x="0" y="16" id="65" orientation="2"/>
                 </terminals>
                 <inputs/>
                 <links_uuids>
@@ -727,7 +1067,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
             </element>
             <element type="embed://import/terminal_block.elmt" x="2130" y="630" z="10" freezeLabel="false" prefix="" uuid="{e40154b9-8b58-437d-a983-614dcb61bd17}" orientation="3">
                 <terminals>
-                    <terminal x="0" y="-6" id="22" orientation="0"/>
+                    <terminal x="0" y="-6" id="66" orientation="0"/>
                 </terminals>
                 <inputs/>
                 <properties>
@@ -741,58 +1081,10 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/terminal_block.elmt" x="2140" y="480" z="10" freezeLabel="false" prefix="" uuid="{199b97ad-3b2d-4f9e-ad22-095cb53c7607}" orientation="3">
-                <terminals>
-                    <terminal x="0" y="-6" id="23" orientation="0"/>
-                </terminals>
-                <inputs/>
-                <properties>
-                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
-                </properties>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5" y="-18" rotation="0" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3a9f166c-66eb-429b-8a76-2f6119e73578}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/terminal_block.elmt" x="2140" y="400" z="10" freezeLabel="false" prefix="" uuid="{792a950b-386a-4f06-b0c1-3deb0e8a5ff1}" orientation="3">
-                <terminals>
-                    <terminal x="0" y="-6" id="24" orientation="0"/>
-                </terminals>
-                <inputs/>
-                <properties>
-                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
-                </properties>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5" y="-18" rotation="0" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3a9f166c-66eb-429b-8a76-2f6119e73578}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/terminal_block.elmt" x="2140" y="520" z="10" freezeLabel="false" prefix="" uuid="{013171ca-6570-4d32-8b12-94e61cd205c8}" orientation="3">
-                <terminals>
-                    <terminal x="0" y="-6" id="25" orientation="0"/>
-                </terminals>
-                <inputs/>
-                <properties>
-                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
-                </properties>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5" y="-18" rotation="0" font="Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3a9f166c-66eb-429b-8a76-2f6119e73578}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
             <element type="embed://import/coil_bleu.elmt" x="870" y="610" z="10" freezeLabel="false" prefix="" uuid="{9e52bc60-d669-4766-877c-a4402f587534}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="26" orientation="0"/>
-                    <terminal x="0" y="16" id="27" orientation="2"/>
+                    <terminal x="0" y="-16" id="67" orientation="0"/>
+                    <terminal x="0" y="16" id="68" orientation="2"/>
                 </terminals>
                 <inputs/>
                 <links_uuids>
@@ -821,51 +1113,10 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="2410" y="610" z="10" freezeLabel="false" prefix="K" uuid="{42a2c31b-6627-4f81-8c4f-5254484471ce}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="28" orientation="0"/>
-                    <terminal x="0" y="16" id="29" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <elementInformations>
-                    <elementInformation name="comment" show="1">Relais test lampes de signalisation</elementInformation>
-                    <elementInformation name="label" show="1">Q(TEST)LS</elementInformation>
-                </elementInformations>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{3c538b8d-a000-4534-96a9-c6ea00b51ad8}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A2</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{5255f5c9-7338-4a48-8530-6e7051933d70}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A1</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{da2d5d26-b380-47b9-809e-7e14da6f74db}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Q(TEST)LS</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/380_signaling_operating/20_push_buttons/poussoir.elmt" x="2410" y="380" z="10" freezeLabel="false" prefix="S" uuid="{7656d8bd-9743-4177-a234-90d0400d60a9}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-17" id="30" orientation="0"/>
-                    <terminal x="0" y="17" id="31" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <elementInformations>
-                    <elementInformation name="label" show="1">BP(TEST)LS</elementInformation>
-                </elementInformations>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{782b0e09-c243-4d4f-9454-ab80b8b9a504}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>BP(TEST)LS</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
             <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="700" y="610" z="10" freezeLabel="false" prefix="K" uuid="{f6ea611d-9e9a-4399-b225-15d39a65b4a4}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="32" orientation="0"/>
-                    <terminal x="0" y="16" id="33" orientation="2"/>
+                    <terminal x="0" y="-16" id="69" orientation="0"/>
+                    <terminal x="0" y="16" id="70" orientation="2"/>
                 </terminals>
                 <inputs/>
                 <links_uuids>
@@ -894,32 +1145,9 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/bp_physique_baie_set.elmt" x="40" y="310" z="10" freezeLabel="false" prefix="" uuid="{207c94f2-dba1-4f16-ad2f-585218aaac58}" orientation="0">
+            <element type="embed://import/terminal_block.elmt" x="2140" y="480" z="10" freezeLabel="false" prefix="" uuid="{199b97ad-3b2d-4f9e-ad22-095cb53c7607}" orientation="3">
                 <terminals>
-                    <terminal x="0" y="-17" id="34" orientation="0"/>
-                    <terminal x="0" y="17" id="35" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <elementInformations>
-                    <elementInformation name="comment" show="1">Interrupteur batterie</elementInformation>
-                    <elementInformation name="label" show="1">H-BA_VE1</elementInformation>
-                </elementInformations>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{cf25c6f1-a178-422b-91d2-eb45b831e30b}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>H-BA_VE1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="3" y="3" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{57563d7c-f71c-4fb8-8005-5fedd31a62f0}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Interrupteur batterie</text>
-                        <info_name>comment</info_name>
-                        <color>#5500ff</color>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/terminal_block.elmt" x="2140" y="440" z="10" freezeLabel="false" prefix="" uuid="{203a5969-7352-45d8-bf39-78c126d36fbb}" orientation="3">
-                <terminals>
-                    <terminal x="0" y="-6" id="36" orientation="0"/>
+                    <terminal x="0" y="-6" id="71" orientation="0"/>
                 </terminals>
                 <inputs/>
                 <properties>
@@ -933,413 +1161,185 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/source_tension_physique_baie_set.elmt" x="40" y="390" z="10" freezeLabel="false" prefix="" uuid="{4d42d23e-5978-4f93-b7c0-2101fc92db4e}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="1900" y="500" z="10" freezeLabel="false" prefix="" uuid="{29c88cee-91c4-4a2e-ab5d-afa4dc735d12}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="37" orientation="0"/>
-                    <terminal x="0" y="16" id="38" orientation="2"/>
+                    <terminal x="-9" y="0" id="72" orientation="3"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="160" z="10" freezeLabel="false" prefix="" uuid="{a35616a2-65e5-44ba-a0f3-ec28c5b11a7d}" orientation="0">
+                <terminals>
+                    <terminal x="-9" y="0" id="73" orientation="3"/>
+                </terminals>
+                <inputs/>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text></text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/10_electric/10_allpole/110_network_supplies/ground1.elmt" x="1090" y="720" z="10" freezeLabel="false" prefix="" uuid="{21507e69-019e-4f00-8ba5-24bd873051eb}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="3" id="74" orientation="0"/>
                 </terminals>
                 <inputs/>
                 <elementInformations>
-                    <elementInformation name="comment" show="1">Alimentation 72V</elementInformation>
-                    <elementInformation name="label" show="1">BAT</elementInformation>
+                    <elementInformation name="label" show="1">B-</elementInformation>
                 </elementInformations>
+                <properties>
+                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
+                </properties>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="12.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{a3cce361-4c38-426a-bc03-95107698d0fc}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>BAT</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="11" y="1" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{80992264-ee4b-4ea2-8c1d-f202d5fabe2a}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Alimentation 72V</text>
-                        <info_name>comment</info_name>
-                        <color>#5500ff</color>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/connector.elmt" x="2020" y="440" z="10" freezeLabel="false" prefix="" uuid="{25eb725e-b9d6-4db8-ac88-80d3ba4503a0}" orientation="1">
-                <terminals>
-                    <terminal x="0" y="-2" id="39" orientation="0"/>
-                    <terminal x="0" y="2" id="40" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="1410" y="510" z="10" freezeLabel="false" prefix="S" uuid="{8b593e5e-5422-4843-889d-2dffffc8a87c}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="41" orientation="0"/>
-                    <terminal x="0" y="16" id="42" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="1020" y="520" z="10" freezeLabel="false" prefix="S" uuid="{87231699-717b-4bf7-a512-77a8bca40d92}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="43" orientation="0"/>
-                    <terminal x="0" y="16" id="44" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{5c1aee3e-b447-4b3d-a738-a1b53f7efba2}"/>
-                </links_uuids>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Z-BL_V1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="1900" y="460" z="10" freezeLabel="false" prefix="" uuid="{f0e8eec9-91ac-437e-b9cd-9c411ded11de}" orientation="0">
-                <terminals>
-                    <terminal x="-9" y="0" id="45" orientation="3"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="120" z="10" freezeLabel="false" prefix="" uuid="{25fb9c45-310d-4e32-9f1a-f2dc2b355470}" orientation="0">
-                <terminals>
-                    <terminal x="-9" y="0" id="46" orientation="3"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="1900" y="480" z="10" freezeLabel="false" prefix="" uuid="{b87768fd-cc3d-4963-9985-e4b9000d604f}" orientation="0">
-                <terminals>
-                    <terminal x="-9" y="0" id="47" orientation="3"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="350" y="610" z="10" freezeLabel="false" prefix="K" uuid="{98565f04-5a7c-462f-9e1d-471f1ca8d9ba}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="48" orientation="0"/>
-                    <terminal x="0" y="16" id="49" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{1ede564d-fc25-45c6-815a-1cef3a5b85e3}"/>
-                </links_uuids>
-                <elementInformations>
-                    <elementInformation name="comment" show="1">Relais de préparation</elementInformation>
-                    <elementInformation name="formula" show="1">Q-BA_V1</elementInformation>
-                    <elementInformation name="label" show="1">Q-BA_V1</elementInformation>
-                </elementInformations>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{2045e9e9-584c-4bdb-bceb-7a25a82a3973}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A2</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{c35f0aa2-27cc-46df-84d0-303de5e306fa}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
-                        <text>A1</text>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{f09ad0d4-a400-4981-be4e-65241b12b3f7}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Q-BA_V1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-22" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{e825cf4b-b6e4-444a-bded-f68afce717f6}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Relais de préparation</text>
-                        <info_name>comment</info_name>
-                        <color>#5500ff</color>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="180" z="10" freezeLabel="false" prefix="" uuid="{c4c23a65-17dd-4aa2-b559-7b84bd82bc5c}" orientation="0">
-                <terminals>
-                    <terminal x="-9" y="0" id="50" orientation="3"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="2410" y="310" z="10" freezeLabel="false" prefix="S" uuid="{cc770112-4c3d-4322-a09c-121a9e7597cb}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="51" orientation="0"/>
-                    <terminal x="0" y="16" id="52" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{a7d5490d-b110-45e1-b44a-1a52014cb920}"/>
-                </links_uuids>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Cx-BL</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/connector.elmt" x="2020" y="480" z="10" freezeLabel="false" prefix="" uuid="{c59049e9-2141-464a-a0eb-7a2107b06436}" orientation="1">
-                <terminals>
-                    <terminal x="0" y="-2" id="53" orientation="0"/>
-                    <terminal x="0" y="2" id="54" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="870" y="300" z="10" freezeLabel="false" prefix="S" uuid="{77120d1e-58f8-4241-9e9b-69aaf5bfd87c}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="55" orientation="0"/>
-                    <terminal x="0" y="16" id="56" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{f6ea611d-9e9a-4399-b225-15d39a65b4a4}"/>
-                </links_uuids>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{779f096c-3d19-4185-9719-237de9cf1ce8}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>C2-BA_V1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/395_electronics_semiconductors/11_diodes/diode.elmt" x="350" y="370" z="10" freezeLabel="false" prefix="V" uuid="{230f79d1-3eae-4716-9f41-a6918ff49cb5}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="57" orientation="0"/>
-                    <terminal x="0" y="16" id="58" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="8" y="-6.83" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{0a66df72-2bdd-4df3-b9fb-49c29669f676}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="490" y="380" z="10" freezeLabel="false" prefix="S" uuid="{d24f1dfc-f56b-4a30-9e6a-16fb91214958}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="59" orientation="0"/>
-                    <terminal x="0" y="16" id="60" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="350" y="480" z="10" freezeLabel="false" prefix="S" uuid="{292db575-34de-40fb-9fe5-db4f0f09761b}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="61" orientation="0"/>
-                    <terminal x="0" y="16" id="62" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{6bf64c26-61ec-4166-a2e9-dacc6d2a2e88}"/>
-                </links_uuids>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Q(A)Q-BA_V1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/connector.elmt" x="60" y="230" z="10" freezeLabel="false" prefix="" uuid="{d719e37d-2677-42c7-a95d-ba5b671d0f7a}" orientation="1">
-                <terminals>
-                    <terminal x="0" y="-2" id="63" orientation="0"/>
-                    <terminal x="0" y="2" id="64" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{677f72ef-c24e-408a-9b79-843a3411808e}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="1240" y="510" z="10" freezeLabel="false" prefix="S" uuid="{5ddd93aa-7e2f-45ca-904f-6161130710e1}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="65" orientation="0"/>
-                    <terminal x="0" y="16" id="66" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="3.75" y="-7.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{8dbf918c-75e2-452e-bf67-634f5ff88348}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="350" y="300" z="10" freezeLabel="false" prefix="S" uuid="{1ede564d-fc25-45c6-815a-1cef3a5b85e3}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="67" orientation="0"/>
-                    <terminal x="0" y="16" id="68" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{98565f04-5a7c-462f-9e1d-471f1ca8d9ba}"/>
-                </links_uuids>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{df45ad8f-da76-4602-9449-2b6343f00acb}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Q-BA_V1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="490" y="440" z="10" freezeLabel="false" prefix="S" uuid="{b416dd1b-1c77-4f6e-a7ac-116183b9ca0b}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="69" orientation="0"/>
-                    <terminal x="0" y="16" id="70" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="1630" y="430" z="10" freezeLabel="false" prefix="S" uuid="{b80c40f4-692e-44bb-8ab1-e9022da4e92a}" orientation="0">
-                <terminals>
-                    <terminal x="0" y="-16" id="71" orientation="0"/>
-                    <terminal x="0" y="16" id="72" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{5c1aee3e-b447-4b3d-a738-a1b53f7efba2}"/>
-                </links_uuids>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="3.75" y="-7.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{8dbf918c-75e2-452e-bf67-634f5ff88348}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Z-BL_V1</text>
-                        <info_name>label</info_name>
-                    </dynamic_elmt_text>
-                </dynamic_texts>
-                <texts_groups/>
-            </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/contact_simple_bleu.elmt" x="1550" y="230" z="10" freezeLabel="false" prefix="S" uuid="{d7537d43-94f8-4d08-8b3e-d57143ac705e}" orientation="1">
-                <terminals>
-                    <terminal x="0" y="-16" id="73" orientation="0"/>
-                    <terminal x="0" y="16" id="74" orientation="2"/>
-                </terminals>
-                <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{9e52bc60-d669-4766-877c-a4402f587534}"/>
-                </links_uuids>
-                <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-23.25" y="21.5" rotation="270" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{17a68a7a-6b65-4977-9672-5b2d1758ba37}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>C-BA_V1</text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="8" y="2" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{f158f611-ac9e-497c-94c3-382a0ec7f5e1}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>B-</text>
                         <info_name>label</info_name>
                         <color>#0000ff</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/connector.elmt" x="2020" y="520" z="10" freezeLabel="false" prefix="" uuid="{5a17561f-21ed-4581-acc1-92f8f6c3ed86}" orientation="1">
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine_tempo_travail.elmt" x="490" y="610" z="10" freezeLabel="false" prefix="K" uuid="{0c0e3b2f-eaae-4a14-b050-19c5fa84054e}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-2" id="75" orientation="0"/>
-                    <terminal x="0" y="2" id="76" orientation="2"/>
+                    <terminal x="0" y="-16" id="75" orientation="0"/>
+                    <terminal x="0" y="16" id="76" orientation="2"/>
                 </terminals>
                 <inputs/>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Relais 1 annulation prépa. tempo.</elementInformation>
+                    <elementInformation name="function" show="1">5 min FM</elementInformation>
+                    <elementInformation name="label" show="1">Q1(T-A)Q-BA_V1</elementInformation>
+                </elementInformations>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{a014bc94-a0c4-4d5a-82f4-0a94f7e3d38d}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A2</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{8784b866-41b4-4b08-9b46-dc096e9b9860}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-9" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{1c0be255-deb9-4529-ac2c-77000b171f6e}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Q1(T-A)Q-BA_V1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-22" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{83184ba1-401f-429f-b423-81e0fb1e1612}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Relais 1 annulation prépa. tempo.</text>
+                        <info_name>comment</info_name>
+                        <color>#5500ff</color>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="20" y="-34" rotation="0" font="Liberation Sans,6,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{614606b1-14a8-4533-ac45-568bb23b1613}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>5 min FM</text>
+                        <info_name>function</info_name>
+                        <color>#ffaa00</color>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element type="embed://import/groundbleu.elmt" x="40" y="480" z="10" freezeLabel="false" prefix="" uuid="{ef2adfa6-3c13-49c1-ab03-b440dd2a839b}" orientation="0">
+                <terminals>
+                    <terminal x="0" y="-7" id="77" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <properties>
+                    <element_type terminal_led="false" terminal_type="generic" terminal_function="generic"/>
+                </properties>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-22.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{34757085-d32b-4470-a41f-db57a8312a18}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
                         <text></text>
                         <info_name>label</info_name>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="490" y="520" z="10" freezeLabel="false" prefix="S" uuid="{55b1bce1-678c-4551-a8c6-596a1dcd0ca3}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/380_signaling_operating/20_push_buttons/poussoir.elmt" x="180" y="300" z="10" freezeLabel="false" prefix="S" uuid="{6483d8e1-ce46-4232-980b-f4e0e6d70d9b}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="77" orientation="0"/>
-                    <terminal x="0" y="16" id="78" orientation="2"/>
+                    <terminal x="0" y="-17" id="78" orientation="0"/>
+                    <terminal x="0" y="17" id="79" orientation="2"/>
                 </terminals>
                 <inputs/>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Bouton poussoir préparation</elementInformation>
+                    <elementInformation name="label" show="1">BP-Q-BA_VE1</elementInformation>
+                </elementInformations>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-13.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{782b0e09-c243-4d4f-9454-ab80b8b9a504}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>BP-Q-BA_VE1</text>
                         <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="1" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{bbd4e62d-2ef6-4a12-bfeb-49ba34b8c494}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Bouton poussoir préparation</text>
+                        <info_name>comment</info_name>
+                        <color>#5500ff</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/connector.elmt" x="2020" y="400" z="10" freezeLabel="false" prefix="" uuid="{059019b8-b835-4571-bf5e-d06ae1213cea}" orientation="1">
+            <element type="embed://import/10_electric/10_allpole/380_signaling_operating/20_push_buttons/poussoir.elmt" x="1020" y="300" z="10" freezeLabel="false" prefix="S" uuid="{8095db4c-ea68-49c0-a71e-896622b678e1}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-2" id="79" orientation="0"/>
-                    <terminal x="0" y="2" id="80" orientation="2"/>
+                    <terminal x="0" y="-17" id="80" orientation="0"/>
+                    <terminal x="0" y="17" id="81" orientation="2"/>
                 </terminals>
                 <inputs/>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Commutateur d'annulation préparation (plombé)</elementInformation>
+                    <elementInformation name="label" show="1">Z(A)Q-BA_VE1</elementInformation>
+                </elementInformations>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-5.5" y="8.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{b904760f-c8ce-4a5b-b8b2-74649883c6ac}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text></text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{782b0e09-c243-4d4f-9454-ab80b8b9a504}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Z(A)Q-BA_VE1</text>
                         <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="-14" y="1" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="150" uuid="{71f4616d-40a0-4bc7-b555-3d552f41e2b5}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignVCenter">
+                        <text>Commutateur d'annulation préparation (plombé)</text>
+                        <info_name>comment</info_name>
+                        <color>#5500ff</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple.elmt" x="1770" y="350" z="10" freezeLabel="false" prefix="S" uuid="{0432fc7a-9461-4f44-ab9a-e5789267b0db}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/01_coils/bobine3.elmt" x="1800" y="610" z="10" freezeLabel="false" prefix="K" uuid="{bfcf9cda-5e91-45c8-85d8-8ac197ea85c7}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="81" orientation="0"/>
-                    <terminal x="0" y="16" id="82" orientation="2"/>
+                    <terminal x="0" y="-16" id="82" orientation="0"/>
+                    <terminal x="0" y="16" id="83" orientation="2"/>
                 </terminals>
                 <inputs/>
-                <links_uuids>
-                    <link_uuid uuid="{a7d5490d-b110-45e1-b44a-1a52014cb920}"/>
-                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="comment" show="1">Relais boîte à levier</elementInformation>
+                    <elementInformation name="label" show="1">Qx-BL</elementInformation>
+                </elementInformations>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6.75" y="-10.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{f4c914a1-4086-44d0-848b-a28ee5daebca}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
-                        <text>Cx-BL</text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="11.33" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{3c538b8d-a000-4534-96a9-c6ea00b51ad8}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A2</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="2" y="-24.67" rotation="0" font="Liberation Sans,4,-1,5,25,0,0,0,0,0,Regular" text_width="-1" uuid="{5255f5c9-7338-4a48-8530-6e7051933d70}" keep_visual_rotation="false" text_from="UserText" Valignment="AlignTop">
+                        <text>A1</text>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="18" y="-8.17" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{da2d5d26-b380-47b9-809e-7e14da6f74db}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Qx-BL</text>
                         <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="18" y="-21" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{5b530cdd-4fae-4dd0-a678-1e9c7612a840}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
+                        <text>Relais boîte à levier</text>
+                        <info_name>comment</info_name>
+                        <color>#5500ff</color>
                     </dynamic_elmt_text>
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/10_electric/10_allpole/310_relays_contactors_contacts/02_contacts_cross_referencing/01_auxiliary_contacts/con_simple_nf.elmt" x="1340" y="510" z="10" freezeLabel="false" prefix="S" uuid="{248dbef4-5e4a-4746-ab6e-cce1e6a61885}" orientation="0">
+            <element type="embed://import/10_electric/10_allpole/100_folio_referencing/02going_arrow.elmt" x="230" y="140" z="10" freezeLabel="false" prefix="" uuid="{10d0c35c-899d-4c5d-bbfc-8f36a8b67da6}" orientation="0">
                 <terminals>
-                    <terminal x="0" y="-16" id="83" orientation="0"/>
-                    <terminal x="0" y="16" id="84" orientation="2"/>
+                    <terminal x="-9" y="0" id="84" orientation="3"/>
                 </terminals>
                 <inputs/>
                 <dynamic_texts>
-                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="5.75" y="-9.5" rotation="0" font="Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{3ba5ee79-8f8d-4c57-a1ed-cd8be6131483}" keep_visual_rotation="false" text_from="ElementInfo" Valignment="AlignTop">
+                    <dynamic_elmt_text frame="false" Halignment="AlignLeft" x="6" y="-11.5" rotation="0" font="Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular" text_width="-1" uuid="{c367d13a-e481-45e8-b082-af02dc98019c}" keep_visual_rotation="true" text_from="ElementInfo" Valignment="AlignTop">
                         <text></text>
                         <info_name>label</info_name>
                     </dynamic_elmt_text>
