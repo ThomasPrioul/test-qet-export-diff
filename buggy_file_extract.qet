@@ -372,8 +372,8 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
         <property name="saveddate-eu" show="1">25-09-2026</property>
         <property name="saveddate-us" show="1">2026-09-25</property>
         <property name="savedfilename" show="1">buggy_file_extract</property>
-        <property name="savedfilepath" show="1">C:/code/SimHIL/61_NAT/01_DOC_SYS/buggy_file_extract.qet</property>
-        <property name="savedtime" show="1">10:14</property>
+        <property name="savedfilepath" show="1">C:/code/SimHIL/test-qet-export-diff/buggy_file_extract.qet</property>
+        <property name="savedtime" show="1">10:16</property>
     </properties>
     <newdiagrams>
         <border cols="17" colsize="60" rows="8" displaycols="true" displayrows="true" rowsize="80"/>
@@ -894,7 +894,7 @@ Created by potrace 1.10, written by Peter Selinger 2001-2011&#xd;
                 </dynamic_texts>
                 <texts_groups/>
             </element>
-            <element type="embed://import/bp_physique_baie_set.elmt" x="50" y="310" z="10" freezeLabel="false" prefix="" uuid="{207c94f2-dba1-4f16-ad2f-585218aaac58}" orientation="0">
+            <element type="embed://import/bp_physique_baie_set.elmt" x="40" y="310" z="10" freezeLabel="false" prefix="" uuid="{207c94f2-dba1-4f16-ad2f-585218aaac58}" orientation="0">
                 <terminals>
                     <terminal x="0" y="-17" id="34" orientation="0"/>
                     <terminal x="0" y="17" id="35" orientation="2"/>
